@@ -1,6 +1,6 @@
 ## versin information
-## $id$
-## changes by PAF
+## $Id$
+## changes by PAF2
 $username = "local\svc-dataprotector" 
 $cred = Get-Credential -Credential $username 
 $password = $cred.Password | ConvertFrom-SecureString
